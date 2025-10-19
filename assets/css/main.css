@@ -4159,14 +4159,15 @@ input, select, textarea {
 
 
 
-/* === Only style 'oval' images === */
+
+
+/* === Consistent round image style like the camera photo === */
 .image.oval img {
   width: 100%;
-  max-width: 300px;
-  height: 420px;
-  border-radius: 50%;
-  object-fit: cover;
+  max-width: 260px;     /* camera size */
+  height: 260px;        /* equal height & width = perfect circle */
+  border-radius: 50%;   /* makes it round */
+  object-fit: cover;    /* crops the image nicely inside */
   display: block;
   margin: 0 auto;
 }
-
