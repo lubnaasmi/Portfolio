@@ -7,15 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.image img {
-  width: 100%;
-  max-width: 320px;  /* Adjust this number to control the size */
-  height: auto;
-  border-radius: 50%;  /* Makes it circular */
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -92,7 +84,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 280px) {
 
 		html, body {
 			min-width: 320px;
@@ -4164,3 +4156,4 @@ input, select, textarea {
 		}
 
 	}
+
