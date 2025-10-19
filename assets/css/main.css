@@ -84,7 +84,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 280px) {
+	@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
@@ -4157,3 +4157,13 @@ input, select, textarea {
 
 	}
 
+
+
+/* === Custom Styling: My Story Image === */
+.image.main img {
+  max-width: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
